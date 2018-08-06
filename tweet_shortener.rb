@@ -21,11 +21,9 @@ def word_substituter (tweet)
   tweet.each do |word|
     if word == dictionaryKeys[i]
       shorterTweet.push(dictionary[word])
-      else
-        shorterTweet.push(word)
-      end
+    else
+      shorterTweet.push(word)
     end
   end
   shorterTweet = shorterTweet.join(" ")
-
 end
