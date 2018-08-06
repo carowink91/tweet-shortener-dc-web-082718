@@ -21,7 +21,7 @@ def word_substituter (tweet)
 
   tweet.each do |word|
     if dictionaryKeys.include?(word.downcase)
-      shorterTweet.push(dictionary[word])
+      shorterTweet.push(dictionary[word.downcase])
     else
       shorterTweet.push(word)
     end
