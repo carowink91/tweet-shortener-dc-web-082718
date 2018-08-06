@@ -41,6 +41,6 @@ def selective_tweet_shortener (tweet)
     puts word_substituter(tweet)
   else
     tweet
+    binding.pry
   end
-  binding.pry
 end
