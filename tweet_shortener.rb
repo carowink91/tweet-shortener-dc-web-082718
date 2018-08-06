@@ -31,5 +31,5 @@ def word_substituter (tweet)
     end
   end
   shorterTweet = shorterTweet.join(" ")
-
+  shorterTweet
 end
