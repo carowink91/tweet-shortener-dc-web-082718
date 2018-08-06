@@ -36,8 +36,8 @@ def bulk_tweet_shortener (arrayOfTweets)
 end
 
 def selective_tweet_shortener (tweet)
+  binding.pry
   if tweet.length > 140
-    binding.pry
     puts word_substituter(tweet)
   else
     tweet
