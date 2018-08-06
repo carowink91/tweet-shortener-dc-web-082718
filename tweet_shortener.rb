@@ -23,7 +23,6 @@ def word_substituter (tweet)
       shorterTweet.push(dictionary[word])
       else
         shorterTweet.push(word)
-        i += 1
       end
     end
   end
